@@ -1,6 +1,6 @@
 /* FONTS
 =========================== */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;900&display=swap');
 
 /* BASE
 =========================== */
@@ -867,9 +867,9 @@ h1.dark-theme {
     min-height: 48px;
     min-width: 48px;
     /* border-radius: 8px; */
-    font-size: 14px;
+    /* font-size: 14px;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 700; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1092,6 +1092,10 @@ h1.dark-theme {
         padding-left: 16px;
         padding-right: 16px;
     }
+}
+
+.ri-close-line:before {
+    font-size: 26px;
 }
 
 
