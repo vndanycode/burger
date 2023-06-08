@@ -781,7 +781,7 @@ h1.dark-theme {
 /* Show and close */
 .modal_opacity {
     opacity: 1;
-    z-index: 2;
+    z-index: 99;
 }
 
 .styles_menu-item-modal-mobile-wrapper::before {
@@ -792,22 +792,9 @@ h1.dark-theme {
     border-radius: 4px;
     display: block;
     position: absolute;
-    top: 10px;
+    top: -20px;
     transform: translateX(-50%);
     left: 50%;
-}
-
-.styles_menu-item-modal-mobile {
-    -webkit-overflow-scrolling: touch;
-    margin: auto auto 0;
-    overflow: auto;
-    border-radius: 16px 16px 0 0;
-    max-height: calc(100vh - var(--vh-offset, 0px) - 32px);
-    min-height: calc(75vh - var(--vh-offset, 0px));
-    overscroll-behavior: none;
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 0;
 }
 
 .styles_menu-item-modal {
@@ -855,11 +842,20 @@ h1.dark-theme {
     align-items: center;
 }
 
-.styles_closeButton {
+/* .styles_closeButton {
     width: 48px;
     padding: 0;
     border-radius: 50%;
     margin-left: auto;
+} */
+
+@media screen and (max-width: 760px){
+    .styles_closeButton {
+        width: 48px;
+        padding: 0;
+        border-radius: 50%;
+        margin-left: auto;
+    }
 }
 
 .styles_button.styles_appearancePrimary {
@@ -1033,30 +1029,6 @@ h1.dark-theme {
     height: 48px;
     font-weight: 700;
 }
-.styles_button{
-    min-height: 48px;
-    min-width: 48px;
-    border-radius: 8px;
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    padding: 0 16px;
-    color: #222222;
-    transition: background-color .225s,color .225s,border-color .225s,filter .225s,box-shadow .225s;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    outline: none;
-    background-color: #ffffff;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-}
 
 @media screen and (max-width: 760px){
     .styles_FooterBlocks {
@@ -1074,6 +1046,21 @@ h1.dark-theme {
 @media screen and (max-width: 760px){
     .style_FooterContent {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .styles_menu-item-modal-mobile {
+        -webkit-overflow-scrolling: touch;
+        margin: auto auto 0;
+        overflow: auto;
+        border-radius: 16px 16px 0 0;
+        max-height: calc(100vh - var(--vh-offset, 0px) - 32px);
+        min-height: calc(75vh - var(--vh-offset, 0px));
+        overscroll-behavior: none;
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 0;
     }
 }
 
