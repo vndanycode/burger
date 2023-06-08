@@ -194,7 +194,9 @@ if (closeModal) {
 }
 
 window.addEventListener('click', (event) => {
-  if (event.target === stylesModal) {
+  const isMobile = window.matchMedia('(max-width: 768px)').matches;
+  if (isMobile && event.target === stylesModal) {
     stylesModal.classList.remove('modal_opacity');
   }
 });
+
