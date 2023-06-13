@@ -216,9 +216,10 @@ h1.dark-theme {
 
 .nav__close i {
     position: absolute;
-    bottom: 2.5px;
-    right: 5px;
-    font-size: 30px;
+    top: 6.2px;
+    right: 7.3px;
+    color: #fff;
+    /* font-size: 30px; */
     cursor: pointer;
 }
 
@@ -950,6 +951,11 @@ h1.dark-theme {
     position: relative;
 }
 
+.styles_menu-label svg {
+    display: block;
+    margin-right: 4px;
+}
+
 /* Footer Wrapper
 =========================== */
 .style_FooterWrapper {
@@ -1098,23 +1104,6 @@ h1.dark-theme {
     font-size: 26px;
 }
 
-
-/* SCROLL BAR
-=========================== */
-/* ::-webkit-scrollbar {
-    width: 10px;
-    border-radius: 8px;
-    background-color: #bdc0c2;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #a2a6a9;
-    border-radius: 8px;   
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: #888d91;
-} */
 
 /* SCROLL UP
 =========================== */

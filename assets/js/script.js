@@ -170,33 +170,197 @@ window.addEventListener('scroll', scrollHeader)
 
 const showMore = document.getElementById('show-more');
 const collapsedText = document.getElementById('CollapsedText');
-const stylesModal = document.getElementById('styles-modal');
+const stylesModal1Burgers = document.getElementById('styles-modal-1-burgers'),
+      stylesModal2Burgers = document.getElementById('styles-modal-2-burgers'),
+      stylesModal3Burgers = document.getElementById('styles-modal-3-burgers'),
+      stylesModal4Burgers = document.getElementById('styles-modal-4-burgers'),
+      stylesModal5Burgers = document.getElementById('styles-modal-5-burgers'),
+      stylesModal6Burgers = document.getElementById('styles-modal-6-burgers'),
+      stylesModal7Burgers = document.getElementById('styles-modal-7-burgers'),
+      stylesModal8Burgers = document.getElementById('styles-modal-8-burgers'),
+      stylesModal9Burgers = document.getElementById('styles-modal-9-burgers'),
+      stylesModal10Burgers = document.getElementById('styles-modal-10-burgers'),
+      stylesModal11Burgers = document.getElementById('styles-modal-11-burgers')
 const closeMenu = document.getElementById('closeMenu');
-const item1 = document.getElementById('item-1');
-const closeModal = document.getElementById('closeModal');
+const item1Burgers = document.getElementById('item-1-burgers'),
+      item2Burgers = document.getElementById('item-2-burgers'),
+      item3Burgers = document.getElementById('item-3-burgers'),
+      item4Burgers = document.getElementById('item-4-burgers'),
+      item5Burgers = document.getElementById('item-5-burgers'),
+      item6Burgers = document.getElementById('item-6-burgers'),
+      item7Burgers = document.getElementById('item-7-burgers'),
+      item8Burgers = document.getElementById('item-8-burgers'),
+      item9Burgers = document.getElementById('item-9-burgers'),
+      item10Burgers = document.getElementById('item-10-burgers'),
+      item11Burgers = document.getElementById('item-11-burgers')
+const closeModal1Burgers = document.getElementById('closeModal-1-burgers'),
+      closeModal2Burgers = document.getElementById('closeModal-2-burgers'),
+      closeModal3Burgers = document.getElementById('closeModal-3-burgers'),
+      closeModal4Burgers = document.getElementById('closeModal-4-burgers'),
+      closeModal5Burgers = document.getElementById('closeModal-5-burgers'),
+      closeModal6Burgers = document.getElementById('closeModal-6-burgers'),
+      closeModal7Burgers = document.getElementById('closeModal-7-burgers'),
+      closeModal8Burgers = document.getElementById('closeModal-8-burgers'),
+      closeModal9Burgers = document.getElementById('closeModal-9-burgers'),
+      closeModal10Burgers = document.getElementById('closeModal-10-burgers'),
+      closeModal11Burgers = document.getElementById('closeModal-11-burgers');
 
-if (showMore) {
-  showMore.addEventListener('click', () => {
-    stylesModal.classList.add('modal_opacity');
+// if (showMore) {
+//   showMore.addEventListener('click', () => {
+//     stylesModal.classList.add('modal_opacity');
+//   });
+// }
+
+// Item Burgers
+if (item1Burgers) {
+  item1Burgers.addEventListener('click', () => {
+    stylesModal1Burgers.classList.add('modal_opacity');
   });
 }
 
-if (item1) {
-  item1.addEventListener('click', () => {
-    stylesModal.classList.add('modal_opacity');
+if (item2Burgers) {
+  item2Burgers.addEventListener('click', () => {
+    stylesModal2Burgers.classList.add('modal_opacity');
   });
 }
 
-if (closeModal) {
-  closeModal.addEventListener('click', () => {
-    stylesModal.classList.remove('modal_opacity');
+if (item3Burgers) {
+  item3Burgers.addEventListener('click', () => {
+    stylesModal3Burgers.classList.add('modal_opacity');
+  });
+}
+
+if (item4Burgers) {
+  item4Burgers.addEventListener('click', () => {
+    stylesModal4Burgers.classList.add('modal_opacity');
+  });
+}
+
+if (item5Burgers) {
+  item5Burgers.addEventListener('click', () => {
+    stylesModal5Burgers.classList.add('modal_opacity');
+  });
+}
+
+if (item6Burgers) {
+  item6Burgers.addEventListener('click', () => {
+    stylesModal6Burgers.classList.add('modal_opacity');
+  });
+}
+
+if (item7Burgers) {
+  item7Burgers.addEventListener('click', () => {
+    stylesModal7Burgers.classList.add('modal_opacity');
+  });
+}
+
+if (item8Burgers) {
+  item8Burgers.addEventListener('click', () => {
+    stylesModal8Burgers.classList.add('modal_opacity');
+  });
+}
+
+if (item9Burgers) {
+  item9Burgers.addEventListener('click', () => {
+    stylesModal9Burgers.classList.add('modal_opacity');
+  });
+}
+
+if (item10Burgers) {
+  item10Burgers.addEventListener('click', () => {
+    stylesModal10Burgers.classList.add('modal_opacity');
+  });
+}
+
+if (item11Burgers) {
+  item11Burgers.addEventListener('click', () => {
+    stylesModal11Burgers.classList.add('modal_opacity');
+  });
+}
+
+
+
+
+
+
+
+if (closeModal1Burgers) {
+  closeModal1Burgers.addEventListener('click', () => {
+    stylesModal1Burgers.classList.remove('modal_opacity');
+  });
+}
+
+if (closeModal2Burgers) {
+  closeModal2Burgers.addEventListener('click', () => {
+    stylesModal2Burgers.classList.remove('modal_opacity');
+  });
+}
+
+if (closeModal3Burgers) {
+  closeModal3Burgers.addEventListener('click', () => {
+    stylesModal3Burgers.classList.remove('modal_opacity');
+  });
+}
+
+if (closeModal4Burgers) {
+  closeModal4Burgers.addEventListener('click', () => {
+    stylesModal4Burgers.classList.remove('modal_opacity');
+  });
+}
+
+if (closeModal5Burgers) {
+  closeModal5Burgers.addEventListener('click', () => {
+    stylesModal5Burgers.classList.remove('modal_opacity');
+  });
+}
+
+if (closeModal6Burgers) {
+  closeModal6Burgers.addEventListener('click', () => {
+    stylesModal6Burgers.classList.remove('modal_opacity');
+  });
+}
+
+if (closeModal7Burgers) {
+  closeModal7Burgers.addEventListener('click', () => {
+    stylesModal7Burgers.classList.remove('modal_opacity');
+  });
+}
+
+if (closeModal8Burgers) {
+  closeModal8Burgers.addEventListener('click', () => {
+    stylesModal8Burgers.classList.remove('modal_opacity');
+  });
+}
+
+if (closeModal9Burgers) {
+  closeModal9Burgers.addEventListener('click', () => {
+    stylesModal9Burgers.classList.remove('modal_opacity');
+  });
+}
+
+if (closeModal10Burgers) {
+  closeModal10Burgers.addEventListener('click', () => {
+    stylesModal10Burgers.classList.remove('modal_opacity');
+  });
+}
+
+if (closeModal11Burgers) {
+  closeModal11Burgers.addEventListener('click', () => {
+    stylesModal11Burgers.classList.remove('modal_opacity');
   });
 }
 
 window.addEventListener('click', (event) => {
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
-  if (isMobile && event.target === stylesModal) {
-    stylesModal.classList.remove('modal_opacity');
+  if (isMobile && event.target === stylesModal1Burgers) {
+    stylesModal1Burgers.classList.remove('modal_opacity');
+  }
+});
+
+window.addEventListener('touchstart', (event) => {
+  const isMobile = window.matchMedia('(max-width: 768px)').matches;
+  if (isMobile && event.target === stylesModal1Burgers) {
+    stylesModal1Burgers.classList.remove('modal_opacity');
   }
 });
 
